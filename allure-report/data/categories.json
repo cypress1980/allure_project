@@ -1,0 +1,72 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'",
+      "children" : [ {
+        "name" : "login_add_item_goto_cart_checkout_leave_details_empty_and verify_error_message",
+        "uid" : "63e4e493748f1a05",
+        "parentUid" : "bc327a2228ceb4b70fbc063b93a0b98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646722456323,
+          "stop" : 1646722464098,
+          "duration" : 7775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc327a2228ceb4b70fbc063b93a0b98d"
+    }, {
+      "name" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
+      "children" : [ {
+        "name" : "login_sort_highToLow_and_verify_highest_price_item_should_be_in_the_first_place",
+        "uid" : "d0bf07ddb82cc88b",
+        "parentUid" : "18056283b0f6813bd9e9ef95ef54a10a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646722464127,
+          "stop" : 1646722464705,
+          "duration" : 578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "18056283b0f6813bd9e9ef95ef54a10a"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "children" : [ {
+        "name" : "Login_with_any_user_then_add_lowest_price_product_then_remove_the_item",
+        "uid" : "f9d3d43680e4412",
+        "parentUid" : "f7cc4fc3a22cb5818b6f361d1f180fe4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646722480679,
+          "stop" : 1646722486045,
+          "duration" : 5366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f7cc4fc3a22cb5818b6f361d1f180fe4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,138 @@
+{
+  "d5cb194510d235a0de039f22ade7f615" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0bf07ddb82cc88b",
+      "status" : "failed",
+      "statusDetails" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
+      "time" : {
+        "start" : 1646722464127,
+        "stop" : 1646722464705,
+        "duration" : 578
+      }
+    } ]
+  },
+  "dc618d34fd4fad440cc6a4f36f18fe8c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63e4e493748f1a05",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'",
+      "time" : {
+        "start" : 1646722456323,
+        "stop" : 1646722464098,
+        "duration" : 7775
+      }
+    } ]
+  },
+  "54987bad5cd591d94bacb899b3d33b3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9c23fa8685cc624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646722454098,
+        "stop" : 1646722456317,
+        "duration" : 2219
+      }
+    } ]
+  },
+  "69c54f462f660617807b79316090544a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61d69e0901b10bc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646722451720,
+        "stop" : 1646722454091,
+        "duration" : 2371
+      }
+    } ]
+  },
+  "dc0e7f15c5d47cf9374cd169dba3bba2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c71ffdc03994220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646722470487,
+        "stop" : 1646722479671,
+        "duration" : 9184
+      }
+    } ]
+  },
+  "9f38306ab6be05499b41c071f1d13029" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9d3d43680e4412",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646722480679,
+        "stop" : 1646722486045,
+        "duration" : 5366
+      }
+    } ]
+  },
+  "bb750d0d26247b2db94c6942e95ac140" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a81286cafc46b20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646722479684,
+        "stop" : 1646722480673,
+        "duration" : 989
+      }
+    } ]
+  }
+}

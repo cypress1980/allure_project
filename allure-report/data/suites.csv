@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 08 12:24:14 IST 2022","Tue Mar 08 12:24:16 IST 2022","2219","","assignment2","","","","login_add_two_items_to_cart_checkout_enter_details_then_continue_and_verify",""
+"failed","Tue Mar 08 12:24:40 IST 2022","Tue Mar 08 12:24:46 IST 2022","5366","","assignment1","","","","Login_with_any_user_then_add_lowest_price_product_then_remove_the_item",""
+"passed","Tue Mar 08 12:24:30 IST 2022","Tue Mar 08 12:24:39 IST 2022","9184","","assignment1","","","","Login_with_multiple_user_Keeping_data_in_fixtures",""
+"passed","Tue Mar 08 12:24:11 IST 2022","Tue Mar 08 12:24:14 IST 2022","2371","","assignment2","","","","login_add_an_item_to_cart_checkout_enter_details_and_continue",""
+"failed","Tue Mar 08 12:24:24 IST 2022","Tue Mar 08 12:24:24 IST 2022","578","","assignment2","","","","login_sort_highToLow_and_verify_highest_price_item_should_be_in_the_first_place",""
+"passed","Tue Mar 08 12:24:39 IST 2022","Tue Mar 08 12:24:40 IST 2022","989","","assignment1","","","","Login_with_any_user_and_add_any_product_to_cart_goto_cart_verify_item_name_&_price",""
+"failed","Tue Mar 08 12:24:16 IST 2022","Tue Mar 08 12:24:24 IST 2022","7775","","assignment2","","","","login_add_item_goto_cart_checkout_leave_details_empty_and verify_error_message",""
