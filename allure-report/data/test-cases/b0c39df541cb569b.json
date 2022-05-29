@@ -1,0 +1,213 @@
+{
+  "uid" : "b0c39df541cb569b",
+  "name" : "login_sort_highToLow_and_verify_highest_price_item_should_be_in_the_first_place",
+  "fullName" : "login_sort_highToLow_and_verify_highest_price_item_should_be_in_the_first_place",
+  "historyId" : "d5cb194510d235a0de039f22ade7f615",
+  "time" : {
+    "start" : 1646628893830,
+    "stop" : 1646628894327,
+    "duration" : 497
+  },
+  "status" : "failed",
+  "statusMessage" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
+  "statusTrace" : "CypressError: `cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type\n    at Context.type (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:154697:76)\n    at Context.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173217:19)\nFrom Your Spec Code:\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/support/index.js:1434:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
+    "statusTrace" : "CypressError: `cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type\n    at Context.type (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:154697:76)\n    at Context.<anonymous> (https://www.saucedemo.com/__cypress/runner/cypress_runner.js:173217:19)\nFrom Your Spec Code:\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/support/index.js:1434:23)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1646628893830,
+        "stop" : 1646628893912,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"text\")",
+        "time" : {
+          "start" : 1646628893850,
+          "stop" : 1646628893850,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "fixture (\"locators\")",
+        "time" : {
+          "start" : 1646628893850,
+          "stop" : 1646628893850,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "fixture (\"testData\")",
+        "time" : {
+          "start" : 1646628893850,
+          "stop" : 1646628893850,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit https://www.saucedemo.com/",
+        "time" : {
+          "start" : 1646628893851,
+          "stop" : 1646628893911,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "login (\"standard_user\"; \"undefined\")",
+      "time" : {
+        "start" : 1646628893913,
+        "stop" : 1646628894326,
+        "duration" : 413
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get #user-name",
+        "time" : {
+          "start" : 1646628893913,
+          "stop" : 1646628893918,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type standard_user",
+        "time" : {
+          "start" : 1646628893918,
+          "stop" : 1646628894202,
+          "duration" : 284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get #password",
+        "time" : {
+          "start" : 1646628894202,
+          "stop" : 1646628894205,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"undefined\")",
+        "time" : {
+          "start" : 1646628894205,
+          "stop" : 1646628894326,
+          "duration" : 121
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d3ba8a4d7f319482",
+      "name" : "Assignement2/Assignement2.spec.js:2022-03-07T04:54:54.216Z",
+      "source" : "d3ba8a4d7f319482.png",
+      "type" : "image/png",
+      "size" : 152037
+    }, {
+      "uid" : "cd3296276400fd80",
+      "name" : "video recording",
+      "source" : "cd3296276400fd80.mp4",
+      "type" : "video/mp4",
+      "size" : 2295512
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "assignment2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0c39df541cb569b.json",
+  "parameterValues" : [ ]
+}

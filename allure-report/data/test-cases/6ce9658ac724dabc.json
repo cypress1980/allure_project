@@ -1,0 +1,1235 @@
+{
+  "uid" : "6ce9658ac724dabc",
+  "name" : "login_add_item_goto_cart_checkout_leave_details_empty_and verify_error_message",
+  "fullName" : "login_add_item_goto_cart_checkout_leave_details_empty_and verify_error_message",
+  "historyId" : "dc618d34fd4fad440cc6a4f36f18fe8c",
+  "time" : {
+    "start" : 1646722456323,
+    "stop" : 1646722464098,
+    "duration" : 7775
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/support/index.js:1482:33)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/support/index.js:1482:33)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1646722456323,
+        "stop" : 1646722456439,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"text\")",
+        "time" : {
+          "start" : 1646722456341,
+          "stop" : 1646722456341,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "fixture (\"locators\")",
+        "time" : {
+          "start" : 1646722456341,
+          "stop" : 1646722456341,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "fixture (\"testData\")",
+        "time" : {
+          "start" : 1646722456342,
+          "stop" : 1646722456342,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit https://www.saucedemo.com/",
+        "time" : {
+          "start" : 1646722456342,
+          "stop" : 1646722456439,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "login (\"standard_user\"; \"secret_sauce\")",
+      "time" : {
+        "start" : 1646722456440,
+        "stop" : 1646722457146,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #user-name",
+        "time" : {
+          "start" : 1646722456441,
+          "stop" : 1646722456445,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type standard_user",
+        "time" : {
+          "start" : 1646722456445,
+          "stop" : 1646722456736,
+          "duration" : 291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get #password",
+        "time" : {
+          "start" : 1646722456736,
+          "stop" : 1646722456739,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type secret_sauce",
+        "time" : {
+          "start" : 1646722456739,
+          "stop" : 1646722457019,
+          "duration" : 280
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get #login-button",
+        "time" : {
+          "start" : 1646722457019,
+          "stop" : 1646722457022,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1646722457022,
+          "stop" : 1646722457146,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://www.saucedemo.com/inventory.html",
+        "time" : {
+          "start" : 1646722457146,
+          "stop" : 1646722457146,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "addItem (\"#add-to-cart-sauce-labs-onesie\")",
+      "time" : {
+        "start" : 1646722457146,
+        "stop" : 1646722457302,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #add-to-cart-sauce-labs-onesie",
+        "time" : {
+          "start" : 1646722457147,
+          "stop" : 1646722457152,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1646722457152,
+          "stop" : 1646722457302,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "goToCart",
+      "time" : {
+        "start" : 1646722457302,
+        "stop" : 1646722457392,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .shopping_cart_link",
+        "time" : {
+          "start" : 1646722457303,
+          "stop" : 1646722457306,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1646722457306,
+          "stop" : 1646722457392,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://www.saucedemo.com/cart.html",
+        "time" : {
+          "start" : 1646722457392,
+          "stop" : 1646722457392,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "clickCheckout",
+      "time" : {
+        "start" : 1646722457392,
+        "stop" : 1646722457476,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #checkout",
+        "time" : {
+          "start" : 1646722457392,
+          "stop" : 1646722457394,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1646722457394,
+          "stop" : 1646722457476,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://www.saucedemo.com/checkout-step-one.html",
+        "time" : {
+          "start" : 1646722457476,
+          "stop" : 1646722457476,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "emptyVerify (\"{alt}\"; \"XYZ\"; \"12345\"; \"Error: First Name is required\")",
+      "time" : {
+        "start" : 1646722457476,
+        "stop" : 1646722458327,
+        "duration" : 851
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "enterDetails (\"{alt}\"; \"XYZ\"; \"12345\")",
+        "time" : {
+          "start" : 1646722457477,
+          "stop" : 1646722458236,
+          "duration" : 759
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "get #first-name",
+          "time" : {
+            "start" : 1646722457478,
+            "stop" : 1646722457481,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722457481,
+            "stop" : 1646722457632,
+            "duration" : 151
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type {alt}",
+          "time" : {
+            "start" : 1646722457632,
+            "stop" : 1646722457700,
+            "duration" : 68
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get #last-name",
+          "time" : {
+            "start" : 1646722457700,
+            "stop" : 1646722457702,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722457702,
+            "stop" : 1646722457854,
+            "duration" : 152
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type XYZ",
+          "time" : {
+            "start" : 1646722457854,
+            "stop" : 1646722457953,
+            "duration" : 99
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get #postal-code",
+          "time" : {
+            "start" : 1646722457953,
+            "stop" : 1646722457956,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722457956,
+            "stop" : 1646722458109,
+            "duration" : 153
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type 12345",
+          "time" : {
+            "start" : 1646722458109,
+            "stop" : 1646722458236,
+            "duration" : 127
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 9,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "clickContinue",
+        "time" : {
+          "start" : 1646722458236,
+          "stop" : 1646722458321,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "get #continue",
+          "time" : {
+            "start" : 1646722458236,
+            "stop" : 1646722458239,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1646722458239,
+            "stop" : 1646722458321,
+            "duration" : 82
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get [data-test=\"error\"]",
+        "time" : {
+          "start" : 1646722458321,
+          "stop" : 1646722458327,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to have text **Error: First Name is required**",
+        "time" : {
+          "start" : 1646722458327,
+          "stop" : 1646722458327,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Error: First Name is required"
+        }, {
+          "name" : "expected",
+          "value" : "Error: First Name is required"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "emptyVerify (\"ABC\"; \"{alt}\"; \"12345\"; \"Error: Last Name is required\")",
+      "time" : {
+        "start" : 1646722458327,
+        "stop" : 1646722459165,
+        "duration" : 838
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "enterDetails (\"ABC\"; \"{alt}\"; \"12345\")",
+        "time" : {
+          "start" : 1646722458327,
+          "stop" : 1646722459077,
+          "duration" : 750
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "get #first-name",
+          "time" : {
+            "start" : 1646722458328,
+            "stop" : 1646722458330,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722458330,
+            "stop" : 1646722458479,
+            "duration" : 149
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type ABC",
+          "time" : {
+            "start" : 1646722458479,
+            "stop" : 1646722458575,
+            "duration" : 96
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get #last-name",
+          "time" : {
+            "start" : 1646722458575,
+            "stop" : 1646722458578,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722458578,
+            "stop" : 1646722458730,
+            "duration" : 152
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type {alt}",
+          "time" : {
+            "start" : 1646722458730,
+            "stop" : 1646722458796,
+            "duration" : 66
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get #postal-code",
+          "time" : {
+            "start" : 1646722458797,
+            "stop" : 1646722458799,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722458799,
+            "stop" : 1646722458954,
+            "duration" : 155
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type 12345",
+          "time" : {
+            "start" : 1646722458954,
+            "stop" : 1646722459077,
+            "duration" : 123
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 9,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "clickContinue",
+        "time" : {
+          "start" : 1646722459077,
+          "stop" : 1646722459160,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "get #continue",
+          "time" : {
+            "start" : 1646722459077,
+            "stop" : 1646722459080,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1646722459080,
+            "stop" : 1646722459160,
+            "duration" : 80
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get [data-test=\"error\"]",
+        "time" : {
+          "start" : 1646722459160,
+          "stop" : 1646722459165,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to have text **Error: Last Name is required**",
+        "time" : {
+          "start" : 1646722459165,
+          "stop" : 1646722459165,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Error: Last Name is required"
+        }, {
+          "name" : "expected",
+          "value" : "Error: Last Name is required"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "emptyVerify (\"ABC\"; \"XYZ\"; \"{alt}\"; \"undefined\")",
+      "time" : {
+        "start" : 1646722459165,
+        "stop" : 1646722464098,
+        "duration" : 4933
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "enterDetails (\"ABC\"; \"XYZ\"; \"{alt}\")",
+        "time" : {
+          "start" : 1646722459165,
+          "stop" : 1646722459892,
+          "duration" : 727
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "get #first-name",
+          "time" : {
+            "start" : 1646722459166,
+            "stop" : 1646722459168,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722459168,
+            "stop" : 1646722459320,
+            "duration" : 152
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type ABC",
+          "time" : {
+            "start" : 1646722459320,
+            "stop" : 1646722459416,
+            "duration" : 96
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get #last-name",
+          "time" : {
+            "start" : 1646722459416,
+            "stop" : 1646722459419,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722459419,
+            "stop" : 1646722459570,
+            "duration" : 151
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type XYZ",
+          "time" : {
+            "start" : 1646722459570,
+            "stop" : 1646722459670,
+            "duration" : 100
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "get #postal-code",
+          "time" : {
+            "start" : 1646722459670,
+            "stop" : 1646722459672,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "clear",
+          "time" : {
+            "start" : 1646722459672,
+            "stop" : 1646722459825,
+            "duration" : 153
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "type {alt}",
+          "time" : {
+            "start" : 1646722459825,
+            "stop" : 1646722459892,
+            "duration" : 67
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 9,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "clickContinue",
+        "time" : {
+          "start" : 1646722459892,
+          "stop" : 1646722459974,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "get #continue",
+          "time" : {
+            "start" : 1646722459892,
+            "stop" : 1646722459895,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "click",
+          "time" : {
+            "start" : 1646722459895,
+            "stop" : 1646722459974,
+            "duration" : 79
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get [data-test=\"error\"]",
+        "time" : {
+          "start" : 1646722459974,
+          "stop" : 1646722464098,
+          "duration" : 4124
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<h3>** to have text **undefined**, but the text was **Error: Postal Code is required**",
+        "time" : {
+          "start" : 1646722464098,
+          "stop" : 1646722464098,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5760fb0c36ba707e",
+      "name" : "Assignement2/Assignement2.spec.js:2022-03-08T06:54:23.979Z",
+      "source" : "5760fb0c36ba707e.png",
+      "type" : "image/png",
+      "size" : 164505
+    }, {
+      "uid" : "6f9bed11152ad16b",
+      "name" : "video recording",
+      "source" : "6f9bed11152ad16b.mp4",
+      "type" : "video/mp4",
+      "size" : 2235307
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 72,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "assignment2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dc7d9c368edede85",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'",
+      "time" : {
+        "start" : 1646644675299,
+        "stop" : 1646644683239,
+        "duration" : 7940
+      }
+    }, {
+      "uid" : "86011f47142b4124",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'",
+      "time" : {
+        "start" : 1646628885846,
+        "stop" : 1646628893796,
+        "duration" : 7950
+      }
+    }, {
+      "uid" : "34b7e35c83a190dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646628804036,
+        "stop" : 1646628807620,
+        "duration" : 3584
+      }
+    }, {
+      "uid" : "53e0ed192cbfef50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646628239289,
+        "stop" : 1646628242970,
+        "duration" : 3681
+      }
+    }, {
+      "uid" : "88e14396ecfe4e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646628154004,
+        "stop" : 1646628157630,
+        "duration" : 3626
+      }
+    }, {
+      "uid" : "f3a3d233fc68ceb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646628064910,
+        "stop" : 1646628068629,
+        "duration" : 3719
+      }
+    }, {
+      "uid" : "1f18cc04897f720c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646627996143,
+        "stop" : 1646627999738,
+        "duration" : 3595
+      }
+    }, {
+      "uid" : "85e753a2e3b5a645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646627835767,
+        "stop" : 1646627839411,
+        "duration" : 3644
+      }
+    }, {
+      "uid" : "71c6a8969ae6db76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646627755886,
+        "stop" : 1646627759577,
+        "duration" : 3691
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ce9658ac724dabc.json",
+  "parameterValues" : [ ]
+}

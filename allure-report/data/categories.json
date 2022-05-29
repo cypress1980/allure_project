@@ -6,7 +6,7 @@
       "name" : "Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'",
       "children" : [ {
         "name" : "login_add_item_goto_cart_checkout_leave_details_empty_and verify_error_message",
-        "uid" : "63e4e493748f1a05",
+        "uid" : "6ce9658ac724dabc",
         "parentUid" : "bc327a2228ceb4b70fbc063b93a0b98d",
         "status" : "failed",
         "time" : {
@@ -27,7 +27,7 @@
       "name" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
       "children" : [ {
         "name" : "login_sort_highToLow_and_verify_highest_price_item_should_be_in_the_first_place",
-        "uid" : "d0bf07ddb82cc88b",
+        "uid" : "b26b18129f688c7",
         "parentUid" : "18056283b0f6813bd9e9ef95ef54a10a",
         "status" : "failed",
         "time" : {
@@ -48,7 +48,7 @@
       "name" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
       "children" : [ {
         "name" : "Login_with_any_user_then_add_lowest_price_product_then_remove_the_item",
-        "uid" : "f9d3d43680e4412",
+        "uid" : "5681c32e22b6a89c",
         "parentUid" : "f7cc4fc3a22cb5818b6f361d1f180fe4",
         "status" : "failed",
         "time" : {

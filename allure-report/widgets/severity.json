@@ -1,5 +1,5 @@
 [ {
-  "uid" : "7a81286cafc46b20",
+  "uid" : "945b05194b82eb36",
   "name" : "Login_with_any_user_and_add_any_product_to_cart_goto_cart_verify_item_name_&_price",
   "time" : {
     "start" : 1646722479684,
@@ -9,17 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d0bf07ddb82cc88b",
-  "name" : "login_sort_highToLow_and_verify_highest_price_item_should_be_in_the_first_place",
-  "time" : {
-    "start" : 1646722464127,
-    "stop" : 1646722464705,
-    "duration" : 578
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "63e4e493748f1a05",
+  "uid" : "6ce9658ac724dabc",
   "name" : "login_add_item_goto_cart_checkout_leave_details_empty_and verify_error_message",
   "time" : {
     "start" : 1646722456323,
@@ -29,17 +19,7 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "61d69e0901b10bc4",
-  "name" : "login_add_an_item_to_cart_checkout_enter_details_and_continue",
-  "time" : {
-    "start" : 1646722451720,
-    "stop" : 1646722454091,
-    "duration" : 2371
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c9c23fa8685cc624",
+  "uid" : "13bd5b762ac37cf3",
   "name" : "login_add_two_items_to_cart_checkout_enter_details_then_continue_and_verify",
   "time" : {
     "start" : 1646722454098,
@@ -49,7 +29,27 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f9d3d43680e4412",
+  "uid" : "b26b18129f688c7",
+  "name" : "login_sort_highToLow_and_verify_highest_price_item_should_be_in_the_first_place",
+  "time" : {
+    "start" : 1646722464127,
+    "stop" : 1646722464705,
+    "duration" : 578
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a81741293b292c45",
+  "name" : "Login_with_multiple_user_Keeping_data_in_fixtures",
+  "time" : {
+    "start" : 1646722470487,
+    "stop" : 1646722479671,
+    "duration" : 9184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5681c32e22b6a89c",
   "name" : "Login_with_any_user_then_add_lowest_price_product_then_remove_the_item",
   "time" : {
     "start" : 1646722480679,
@@ -59,12 +59,12 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "c71ffdc03994220",
-  "name" : "Login_with_multiple_user_Keeping_data_in_fixtures",
+  "uid" : "78c42d8241efdc05",
+  "name" : "login_add_an_item_to_cart_checkout_enter_details_and_continue",
   "time" : {
-    "start" : 1646722470487,
-    "stop" : 1646722479671,
-    "duration" : 9184
+    "start" : 1646722451720,
+    "stop" : 1646722454091,
+    "duration" : 2371
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,0 +1,591 @@
+{
+  "uid" : "5681c32e22b6a89c",
+  "name" : "Login_with_any_user_then_add_lowest_price_product_then_remove_the_item",
+  "fullName" : "Login_with_any_user_then_add_lowest_price_product_then_remove_the_item",
+  "historyId" : "9f38306ab6be05499b41c071f1d13029",
+  "time" : {
+    "start" : 1646722480679,
+    "stop" : 1646722486045,
+    "duration" : 5366
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/support/index.js:1475:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress/support/index.js:1475:19)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1646722480679,
+        "stop" : 1646722480802,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture (\"text\")",
+        "time" : {
+          "start" : 1646722480696,
+          "stop" : 1646722480696,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "fixture (\"locators\")",
+        "time" : {
+          "start" : 1646722480696,
+          "stop" : 1646722480696,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "fixture (\"testData\")",
+        "time" : {
+          "start" : 1646722480696,
+          "stop" : 1646722480696,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "visit https://www.saucedemo.com/",
+        "time" : {
+          "start" : 1646722480697,
+          "stop" : 1646722480802,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "login (\"standard_user\"; \"secret_sauce\")",
+      "time" : {
+        "start" : 1646722480804,
+        "stop" : 1646722481534,
+        "duration" : 730
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #user-name",
+        "time" : {
+          "start" : 1646722480804,
+          "stop" : 1646722480811,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type standard_user",
+        "time" : {
+          "start" : 1646722480811,
+          "stop" : 1646722481121,
+          "duration" : 310
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get #password",
+        "time" : {
+          "start" : 1646722481121,
+          "stop" : 1646722481127,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type secret_sauce",
+        "time" : {
+          "start" : 1646722481127,
+          "stop" : 1646722481430,
+          "duration" : 303
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get #login-button",
+        "time" : {
+          "start" : 1646722481430,
+          "stop" : 1646722481433,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1646722481433,
+          "stop" : 1646722481534,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://www.saucedemo.com/inventory.html",
+        "time" : {
+          "start" : 1646722481534,
+          "stop" : 1646722481534,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .product_sort_container",
+      "time" : {
+        "start" : 1646722481534,
+        "stop" : 1646722481539,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "select Price (low to high)",
+      "time" : {
+        "start" : 1646722481539,
+        "stop" : 1646722481691,
+        "duration" : 152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get .product_sort_container",
+      "time" : {
+        "start" : 1646722481691,
+        "stop" : 1646722481699,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<select.product_sort_container>** to have value **lohi**",
+      "time" : {
+        "start" : 1646722481699,
+        "stop" : 1646722481699,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "lohi"
+      }, {
+        "name" : "expected",
+        "value" : "lohi"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .inventory_list",
+      "time" : {
+        "start" : 1646722481700,
+        "stop" : 1646722481703,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "find .inventory_item",
+      "time" : {
+        "start" : 1646722481703,
+        "stop" : 1646722481714,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "eq 0",
+      "time" : {
+        "start" : 1646722481714,
+        "stop" : 1646722481717,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "contains Add to cart",
+      "time" : {
+        "start" : 1646722481717,
+        "stop" : 1646722481721,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1646722481721,
+        "stop" : 1646722481814,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "goToCart",
+      "time" : {
+        "start" : 1646722481814,
+        "stop" : 1646722481913,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .shopping_cart_link",
+        "time" : {
+          "start" : 1646722481814,
+          "stop" : 1646722481817,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1646722481817,
+          "stop" : 1646722481913,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://www.saucedemo.com/cart.html",
+        "time" : {
+          "start" : 1646722481912,
+          "stop" : 1646722481912,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "verifyCheckout (\".inventory_item_name\"; \"undefined\")",
+      "time" : {
+        "start" : 1646722481913,
+        "stop" : 1646722486044,
+        "duration" : 4131
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get .inventory_item_name",
+        "time" : {
+          "start" : 1646722481913,
+          "stop" : 1646722486044,
+          "duration" : 4131
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<div.inventory_item_name>** to have text **undefined**, but the text was **Sauce Labs Onesie**",
+        "time" : {
+          "start" : 1646722486044,
+          "stop" : 1646722486044,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "22187c10de89742f",
+      "name" : "Assignment1/Assignement1.spec.js:2022-03-08T06:54:45.934Z",
+      "source" : "22187c10de89742f.png",
+      "type" : "image/png",
+      "size" : 146511
+    }, {
+      "uid" : "e99e40d6135bd8bd",
+      "name" : "video recording",
+      "source" : "e99e40d6135bd8bd.mp4",
+      "type" : "video/mp4",
+      "size" : 2164211
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 29,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "assignment1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b49c84b36f86755a",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646644699834,
+        "stop" : 1646644705276,
+        "duration" : 5442
+      }
+    }, {
+      "uid" : "99ba96bb87bdb2a",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646628911272,
+        "stop" : 1646628916678,
+        "duration" : 5406
+      }
+    }, {
+      "uid" : "80649cc3c521b066",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646628823595,
+        "stop" : 1646628828884,
+        "duration" : 5289
+      }
+    }, {
+      "uid" : "f4051ea2bb2713c",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646628258802,
+        "stop" : 1646628264021,
+        "duration" : 5219
+      }
+    }, {
+      "uid" : "668b2bc58d156867",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646628178039,
+        "stop" : 1646628183273,
+        "duration" : 5234
+      }
+    }, {
+      "uid" : "a593223fc79a18d3",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646628084775,
+        "stop" : 1646628090028,
+        "duration" : 5253
+      }
+    }, {
+      "uid" : "d9ef30c77f95a78e",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646628015870,
+        "stop" : 1646628021083,
+        "duration" : 5213
+      }
+    }, {
+      "uid" : "338719f37382086f",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646627855386,
+        "stop" : 1646627860627,
+        "duration" : 5241
+      }
+    }, {
+      "uid" : "345e5f44c9cdbd9",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
+      "time" : {
+        "start" : 1646627775559,
+        "stop" : 1646627780821,
+        "duration" : 5262
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5681c32e22b6a89c.json",
+  "parameterValues" : [ ]
+}

@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0bf07ddb82cc88b",
+      "uid" : "b26b18129f688c7",
       "status" : "failed",
       "statusDetails" : "`cy.type()` can only accept a string or number. You passed in: `undefined`\n\nhttps://on.cypress.io/type",
       "time" : {
@@ -29,7 +29,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "63e4e493748f1a05",
+      "uid" : "6ce9658ac724dabc",
       "status" : "failed",
       "statusDetails" : "Timed out retrying after 4000ms: expected '<h3>' to have text undefined, but the text was 'Error: Postal Code is required'",
       "time" : {
@@ -49,7 +49,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9c23fa8685cc624",
+      "uid" : "13bd5b762ac37cf3",
       "status" : "passed",
       "time" : {
         "start" : 1646722454098,
@@ -68,31 +68,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "61d69e0901b10bc4",
+      "uid" : "78c42d8241efdc05",
       "status" : "passed",
       "time" : {
         "start" : 1646722451720,
         "stop" : 1646722454091,
         "duration" : 2371
-      }
-    } ]
-  },
-  "dc0e7f15c5d47cf9374cd169dba3bba2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c71ffdc03994220",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646722470487,
-        "stop" : 1646722479671,
-        "duration" : 9184
       }
     } ]
   },
@@ -106,13 +87,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f9d3d43680e4412",
+      "uid" : "5681c32e22b6a89c",
       "status" : "failed",
       "statusDetails" : "Timed out retrying after 4000ms: expected '<div.inventory_item_name>' to have text undefined, but the text was 'Sauce Labs Onesie'",
       "time" : {
         "start" : 1646722480679,
         "stop" : 1646722486045,
         "duration" : 5366
+      }
+    } ]
+  },
+  "dc0e7f15c5d47cf9374cd169dba3bba2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a81741293b292c45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646722470487,
+        "stop" : 1646722479671,
+        "duration" : 9184
       }
     } ]
   },
@@ -126,7 +126,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7a81286cafc46b20",
+      "uid" : "945b05194b82eb36",
       "status" : "passed",
       "time" : {
         "start" : 1646722479684,
